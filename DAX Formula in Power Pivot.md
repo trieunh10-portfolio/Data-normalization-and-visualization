@@ -1,17 +1,18 @@
 
 
-*>* *Create CalendarQuarterName column*
+> *Create CalendarQuarterName column*
 
 
 
 
 
  			*CalendarQuarterName:*= IF('Calendar'\[CalendarQuarter]=1,"Qrt1",
-						IF('Calendar'\[CalendarQuarter]=2,"Qrt2",IF('Calendar'\[CalendarQuarter]=3,"Qrt3","Qrt4")))
+									IF('Calendar'\[CalendarQuarter]=2,"Qrt2",
+									IF('Calendar'\[CalendarQuarter]=3,"Qrt3","Qrt4")))
 
 
 
-*> Create Age Column*
+> *Create Age Column*
 
 
 
@@ -21,7 +22,7 @@
 
 
 
-*> Create GroupYear Column*
+> *Create GroupYear Column*
 
 
 
@@ -33,11 +34,12 @@
 
 
 
-*> Create GenderName Column*
+> *Create GenderName Column*
 
 
 
  			GenderName:=IF(Customers\[Gender]="M","Male","Female")
+
 
 
 
