@@ -1,5 +1,5 @@
 # Data-normalization-and-visualization
-Built a clean dataset with readable data for further analysis. Showed a dashboard report of sales over the years.
+Develop a clean dataset with readable information for further analysis and create a dashboard report on sales over the years.
 ## Data
 - Du_lieu_In dataset: 700 rows, 6 columns.
 - Truc_quan_hoa dataset: 4 tables (Calendar, Customers, Products, Sales) that have been data modeled according to the Star Schema.
