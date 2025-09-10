@@ -1,4 +1,4 @@
-# Data-normalization-and-visualization
+# Data normalization and visualization
 Develop a clean dataset with readable information for further analysis and create a dashboard report on sales over the years.
 ## Data
 - Du_lieu_In dataset: 700 rows, 6 columns.
